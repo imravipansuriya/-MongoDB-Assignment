@@ -1,6 +1,6 @@
 const mongooes = require('mongoose');
-
-const mongoUrl = 'mongodb://localhost:27017/tigris'
+ 
+const mongoUrl = 'mongodb+srv://ravi:ravi@cluster0.p6rse.mongodb.net/replit?retryWrites=true&w=majority'
 
 const makeDatabaseConnection = () =>{
   mongooes.connect(mongoUrl, {
